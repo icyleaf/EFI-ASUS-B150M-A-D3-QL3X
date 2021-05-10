@@ -68,6 +68,15 @@ ql3x 其原身是 Intel 笔记本七代 i7 7820HK ES 版 CPU，默频全核睿�
 
 > 待补充
 
+## 成果截图
+
+![000-os.png](screenshots/000-os.png)
+![001-intel-igpu.png](screenshots/001-intel-igpu.png)
+![002-hevc-enabled.png](screenshots/002-hevc-enabled.png)
+![002-monstor.png](screenshots/002-monstor.png)
+![004-lan.png](screenshots/004-lan.png)
+![003-memory.png](screenshots/003-memory.png)
+
 ## 感谢
 
 - [简单聊聊1151魔改CPU——以QL3X为例（2020.9.3重新修订）](http://www.smxdiy.com/thread-2867-1-1.html)
