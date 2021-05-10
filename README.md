@@ -62,7 +62,28 @@ ql3x 其原身是 Intel 笔记本七代 i7 7820HK ES 版 CPU，默频全核睿�
 
 ### BIOS
 
-> 待补充
+- Ai Tweaker - 超频
+  - CPU Core Ratio - Sync All Cores
+    - 1-Core Ratio Limit - 40
+  - CPU Core/Cache Voltage - Manual Mode
+    - CPU Core Voltage Override - 1.28 
+- Advanced 
+  - CPU Configuratgion
+    - Hyper-threading - Enabled
+    - CPU Power Management Cofiguration 
+      - CFG lock - Disabled
+  - System Agent (SA) Configuration
+    - VT-d - Disabled
+    - Graphics Configuration
+      - Primary Display - Auto
+      - iGPU Multi-Monitor - Enabled
+      - DVMT Pre-Allocated - 128M
+  - Boot 
+    - Fast Boot - Disabled
+    - Secure Boot
+      - OS Type - Other OS
+      - Key Management
+        - Delete all keys
 
 ### EFI
 
