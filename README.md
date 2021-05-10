@@ -92,7 +92,7 @@ ql3x 其原身是 Intel 笔记本七代 [i7 7820HK](https://ark.intel.com/conten
 ![B150M-A_D3-1.jpg](screenshots/B150M-A_D3-1.jpg)
 ![B150M-A_D3-4.jpg](screenshots/B150M-A_D3-4.jpg)
 
-USB 端口注入 HS01~06、09~11，SS01~06 = 15 个端口，关闭 HS07~08，12 和 SS07~12
+USB 端口注入 HS01-06、09-11，SS01-06 = 15 个端口，关闭 HS07-08，12 和 SS07-12
 
 ### EFI
 
