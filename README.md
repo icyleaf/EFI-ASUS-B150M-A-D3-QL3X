@@ -70,6 +70,7 @@ ql3x 其原身是 Intel 笔记本七代 i7 7820HK ES 版 CPU，默频全核睿�
 
 ## 成果截图
 
+![000-usb.png](screenshots/000-usb.png)
 ![000-os.png](screenshots/000-os.png)
 ![001-intel-igpu.png](screenshots/001-intel-igpu.png)
 ![002-hevc-enabled.png](screenshots/002-hevc-enabled.png)
