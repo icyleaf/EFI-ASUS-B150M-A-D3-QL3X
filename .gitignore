@@ -1,0 +1,11 @@
+/.Trashes/
+/.fseventsd/
+/.TemporaryItems/
+/.Spotlight*/
+/.metadata_never_index
+nvram.plist
+vendors/
+
+/EFI/*.txt
+
+._*
