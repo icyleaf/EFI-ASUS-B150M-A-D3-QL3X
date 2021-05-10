@@ -9,7 +9,7 @@
 | 散热器 | AVC 杂牌铜底散热器 | 70mm 高，咸鱼购入全新 |
 | 内存 | 金士顿 DDR3 1600 8G x 4 |  |
 | 硬盘 | 镁光 CT500MX 500G | |
-| 显卡 | 核显 UHD630 | 可仿冒 HD530 或 HD630 |
+| 显卡 | 核显 HD630 | 可仿冒 HD530 或 HD630 |
 | 无线网卡/蓝牙 | 博通 BCM94360CS2 | PCIE 转接板（购买中） |
 | 电源 | 银欣 ST30SF 300W SFX | 不超频 |
 | 机箱 | 酷酷的小机箱 毁灭者K | M-ITX 机箱 |
@@ -49,7 +49,7 @@
 
 ### CPU
 
-ql3x 其原身是 Intel 笔记本七代 i7 7820HK ES 版 CPU，默频全核睿频 3.3 不锁倍频，具体参数如下：
+ql3x 其原身是 Intel 笔记本七代 [i7 7820HK](https://ark.intel.com/content/www/us/en/ark/products/97464/intel-core-i7-7820hk-processor-8m-cache-up-to-3-90-ghz.html) ES 版 CPU，默频全核睿频 3.3 不锁倍频，具体参数如下：
 
 - 核心：4c8t
 - 工艺：14nm+
@@ -57,7 +57,7 @@ ql3x 其原身是 Intel 笔记本七代 i7 7820HK ES 版 CPU，默频全核睿�
 - 基础频率：2.9Ghz
 - 加速频率：3.9Ghz
 - 三级缓存：8MB
-- 核显：UHD 630
+- 核显：HD 630
 - TDP：45w
 
 ### BIOS
@@ -66,11 +66,11 @@ ql3x 其原身是 Intel 笔记本七代 i7 7820HK ES 版 CPU，默频全核睿�
   - CPU Core Ratio - Sync All Cores
     - 1-Core Ratio Limit - 40
   - CPU Core/Cache Voltage - Manual Mode
-    - CPU Core Voltage Override - 1.28 
-- Advanced 
+    - CPU Core Voltage Override - 1.28
+- Advanced
   - CPU Configuratgion
     - Hyper-threading - Enabled
-    - CPU Power Management Cofiguration 
+    - CPU Power Management Cofiguration
       - CFG lock - Disabled
   - System Agent (SA) Configuration
     - VT-d - Disabled
@@ -78,20 +78,40 @@ ql3x 其原身是 Intel 笔记本七代 i7 7820HK ES 版 CPU，默频全核睿�
       - Primary Display - Auto
       - iGPU Multi-Monitor - Enabled
       - DVMT Pre-Allocated - 128M
-  - Boot 
+  - Boot
     - Fast Boot - Disabled
     - Secure Boot
       - OS Type - Other OS
       - Key Management
         - Delete all keys
 
+### USB 接口
+
+接口如下，目前主板上 USB 2.0 的还没设备进行测试等后续 PCIE 的网卡到了再说，先把已知的标上去
+
+![B150M-A_D3-1.jpg](screenshots/B150M-A_D3-1.jpg)
+![B150M-A_D3-4.jpg](screenshots/B150M-A_D3-4.jpg)
+
+USB 端口注入 HS01~06、09~11，SS01~06 = 15 个端口，关闭 HS07~08，12 和 SS07~12
+
 ### EFI
 
 > 待补充
 
+### 睡眠唤醒问题
+
+由于关闭 me 的问题核显暂时无法解决睡眠唤醒，只能先通过[官方文档](https://dortania.github.io/OpenCore-Post-Install/universal/sleep.html)提供方式禁止睡眠：
+
+```bash
+sudo pmset autopoweroff 0
+sudo pmset powernap 0
+sudo pmset standby 0
+sudo pmset proximitywake 0
+sudo pmset tcpkeepalive 0
+```
+
 ## 成果截图
 
-![000-usb.png](screenshots/000-usb.png)
 ![000-os.png](screenshots/000-os.png)
 ![001-intel-igpu.png](screenshots/001-intel-igpu.png)
 ![002-hevc-enabled.png](screenshots/002-hevc-enabled.png)
