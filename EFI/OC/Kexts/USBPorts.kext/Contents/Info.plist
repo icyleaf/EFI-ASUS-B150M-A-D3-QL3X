@@ -118,17 +118,6 @@
 						BgAAAA==
 						</data>
 					</dict>
-					<key>HS09</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>255</integer>
-						<key>name</key>
-						<string>HS09</string>
-						<key>port</key>
-						<data>
-						CQAAAA==
-						</data>
-					</dict>
 					<key>HS10</key>
 					<dict>
 						<key>UsbConnector</key>
@@ -140,15 +129,15 @@
 						CgAAAA==
 						</data>
 					</dict>
-					<key>HS11</key>
+					<key>HS12</key>
 					<dict>
 						<key>UsbConnector</key>
 						<integer>255</integer>
 						<key>name</key>
-						<string>HS11</string>
+						<string>HS12</string>
 						<key>port</key>
 						<data>
-						CwAAAA==
+						DAAAAA==
 						</data>
 					</dict>
 					<key>SS01</key>

@@ -38,8 +38,8 @@
     - [x] 主板后置
     - [x] HDMI 声音输出
 - [ ] 有线网卡 (Realtek RTL8111H)
-- [ ] 无线 WiFi
-- [ ] 蓝牙
+- [x] 无线 WiFi
+- [x] 蓝牙
     - [ ] Handoff
     - [ ] Airdrop
 - [ ] 睡眠唤醒 - me 关闭问题核显**可能解决不了**唤醒问题
@@ -87,12 +87,10 @@ ql3x 其原身是 Intel 笔记本七代 [i7 7820HK](https://ark.intel.com/conten
 
 ### USB 接口
 
-接口如下，目前主板上 USB 2.0 的还没设备进行测试等后续 PCIE 的网卡到了再说，先把已知的标上去
+接口如下，USB 端口注入 HS01-06、HS10、HS12，SS01-06 = 14 个端口，其中 HS01-06 改为 USB2，HS10 和 HS12 改为 Internal，关闭 HS07-09，HS11 和 SS07-12。
 
 ![B150M-A_D3-1.jpg](screenshots/B150M-A_D3-1.jpg)
 ![B150M-A_D3-4.jpg](screenshots/B150M-A_D3-4.jpg)
-
-USB 端口注入 HS01-06、09-11，SS01-06 = 15 个端口，关闭 HS07-08，12 和 SS07-12
 
 ### EFI
 
