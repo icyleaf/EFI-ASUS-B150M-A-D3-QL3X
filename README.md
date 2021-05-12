@@ -26,8 +26,8 @@
       - [x] HEVC 硬解
       - 主板接口
         - [x] HDMI - 最高 4k 30帧
-        - [ ] DVI - 进入系统黑屏不显示
-        - [ ] VGA - 没有测试
+        - [ ] DVI - 可进 BIOS 但进入系统黑屏不显示
+        - [ ] VGA - 可进 BIOS 但进入系统黑屏不显示
     - [x] 仿核显 HD530
       - [ ] HEVC 硬解 - 无法开启
       - 主板接口
@@ -62,7 +62,7 @@ ql3x 其原身是 Intel 笔记本七代 [i7 7820HK](https://ark.intel.com/conten
 
 ### BIOS
 
-- Ai Tweaker - 超频
+- Ai Tweaker - 超频（**具体看 CPU 体质**）
   - CPU Core Ratio - Sync All Cores
     - 1-Core Ratio Limit - 40
   - CPU Core/Cache Voltage - Manual Mode
@@ -76,14 +76,16 @@ ql3x 其原身是 Intel 笔记本七代 [i7 7820HK](https://ark.intel.com/conten
     - VT-d - Disabled
     - Graphics Configuration
       - Primary Display - Auto
-      - iGPU Multi-Monitor - Enabled
-      - DVMT Pre-Allocated - 128M
+      - iGPU Multi-Monitor - Enabled (多显示器开启)
+      - DVMT Pre-Allocated - 64M 或 128M (4k显示器)
   - Boot
     - Fast Boot - Disabled
+    - CSM
+      - Launch CSM - Disabled
     - Secure Boot
       - OS Type - Other OS
       - Key Management
-        - Delete all keys
+        - 手动删除所有的 keys 就会 Disabled Secure Boot
 
 ### USB 接口
 
