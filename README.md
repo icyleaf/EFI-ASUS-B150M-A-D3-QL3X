@@ -40,8 +40,8 @@
 - [ ] 有线网卡 (Realtek RTL8111H)
 - [x] 无线 WiFi
 - [x] 蓝牙
-    - [ ] Handoff
-    - [ ] Airdrop
+    - [x] Handoff
+    - [x] Airdrop
 - [ ] 睡眠唤醒 - me 关闭问题核显**可能解决不了**唤醒问题
 - [ ] 所有 USB 插口
 
