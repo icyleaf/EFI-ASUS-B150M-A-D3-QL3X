@@ -125,6 +125,7 @@ sudo pmset tcpkeepalive 0
 
 ![000-os.png](screenshots/000-os.png)
 ![000-geekbench5-result.png](screenshots/000-geekbench5-result.png)
+![000-intel-power-gadget.png](screenshots/000-intel-power-gadget.png)
 ![001-intel-igpu.png](screenshots/001-intel-igpu.png)
 ![002-hevc-enabled.png](screenshots/002-hevc-enabled.png)
 ![002-monstor.png](screenshots/002-monstor.png)
