@@ -143,3 +143,7 @@ sudo pmset tcpkeepalive 0
 - [OpenCore Desktop Kaby Lake EFI Guide](https://dortania.github.io/OpenCore-Install-Guide/config.plist/kaby-lake.html)
 - [ql3x EFI](https://github.com/xueziQQ/desktop_soyo_maxsun_h110_ql3x_ql2x_opencore_efi)
 - [ql2x EFI](https://github.com/Road-tech/Hackintosh_Asus-H110s1_QL2X_DW1820A_OC)
+
+## 我的其他 EFI
+
+- [ASRock 华擎 Z390 Phantom Gaming itx/ac + RX580](https://github.com/icyleaf/EFI-ASRock-Z390-Phantom-Gaming-ITX)
