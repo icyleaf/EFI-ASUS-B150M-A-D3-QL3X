@@ -124,55 +124,6 @@
 	<dict>
 		<key>Add</key>
 		<dict>
-			<key>###-broken-PciRoot(0x0)/Pci(0x2,0x0)</key>
-			<dict>
-				<key>AAPL,ig-platform-id</key>
-				<data>AAASWQ==</data>
-				<key>device-id</key>
-				<data>G1kAAA==</data>
-				<key>framebuffer-con0-busid</key>
-				<data>BQAAAA==</data>
-				<key>framebuffer-con0-enable</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con0-flags</key>
-				<data>hwEAAA==</data>
-				<key>framebuffer-con0-index</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con0-pipe</key>
-				<data>CQAAAA==</data>
-				<key>framebuffer-con0-type</key>
-				<data>AAQAAA==</data>
-				<key>framebuffer-con1-busid</key>
-				<data>BAAAAA==</data>
-				<key>framebuffer-con1-enable</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con1-flags</key>
-				<data>hwEAAA==</data>
-				<key>framebuffer-con1-index</key>
-				<data>AgAAAA==</data>
-				<key>framebuffer-con1-pipe</key>
-				<data>CgAAAA==</data>
-				<key>framebuffer-con1-type</key>
-				<data>AAQAAA==</data>
-				<key>framebuffer-con2-busid</key>
-				<data>BgAAAA==</data>
-				<key>framebuffer-con2-enable</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con2-flags</key>
-				<data>hwEAAA==</data>
-				<key>framebuffer-con2-index</key>
-				<data>AwAAAA==</data>
-				<key>framebuffer-con2-pipe</key>
-				<data>CgAAAA==</data>
-				<key>framebuffer-con2-type</key>
-				<data>AAQAAA==</data>
-				<key>framebuffer-patch-enable</key>
-				<data>AQAAAA==</data>
-				<key>hda-gfx</key>
-				<string>onboard-1</string>
-				<key>model</key>
-				<string>Intel HD Graphics 630</string>
-			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>

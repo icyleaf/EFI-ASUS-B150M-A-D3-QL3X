@@ -6,10 +6,10 @@
 | --- | --- | --- |
 | CPU | ql3x 笔记本 i7 7820HK ES 魔改版 | 超频全核 4.0G |
 | 主板 | 华硕 B150M A D3 M-ATX 23.4x20.1cm | 已刷魔改 BIOS |
-| 散热器 | ID-COOLING FROSTFLOW 120 水冷 | 咸鱼二手 |
+| 散热器 | ID-COOLING FROSTFLOW 120 水冷 | 咸鱼二手 60 元 |
 | 内存 | 金士顿 HyperX DDR3 1600 8G x 4 | 单通道 4k 显示器可能会闪屏 |
 | 硬盘 | 镁光 CT500MX 500G | |
-| 显卡 | 核显 HD630 | 可仿冒 HD530 |
+| 显卡 | 蓝宝石 HD 7770 1G | 咸鱼二手 168 元 |
 | 无线网卡/蓝牙 | 博通 BCM94360CS2 | PCIE 转接板 |
 | 电源 | 银欣 ST30SF 300W SFX | |
 | 机箱 | 酷酷的小机箱 毁灭者K | M-ITX 机箱 |
@@ -23,6 +23,10 @@
 - [x] macOS 版本
     - [x] 11.0
 - [x] 显卡
+    - [x] HD 7770
+      - [x] HEVC 硬解
+      - 主板接口
+        - [x] HDMI - 最高 4k 30帧
     - [x] 核显 HD630
       - [x] HEVC 硬解
       - 主板接口
@@ -44,16 +48,16 @@
 
 ### 不兼容
 
+- 睡眠唤醒 - me 关闭问题核显**解决不了**唤醒问题，更换独显立马解决
 - 显卡
-    - 核显 HD630
-      - 主板接口
-        - DVI - 可进 BIOS 但进入系统黑屏不显示
-        - VGA - 系统不支持，不用想了
-    - 仿核显 HD530
-      - 无法开启 HEVC 硬解
-      - 主板接口
-        - VGA - 系统不支持，不用想了
-- 睡眠唤醒 - me 关闭问题核显**可能解决不了**唤醒问题
+  - 核显 HD630
+    - 主板接口
+      - DVI - 可进 BIOS 但进入系统黑屏不显示
+      - VGA - 系统不支持，不用想了
+  - 仿核显 HD530
+    - 无法开启 HEVC 硬解
+    - 主板接口
+      - VGA - 系统不支持，不用想了
 
 
 ## 配置备注
@@ -86,8 +90,8 @@ ql3x 其原身是 Intel 笔记本七代 [i7 7820HK](https://ark.intel.com/conten
   - System Agent (SA) Configuration
     - VT-d - Disabled
     - Graphics Configuration
-      - Primary Display - Auto
-      - iGPU Multi-Monitor - Enabled (多显示器开启)
+      - Primary Display - Auto (如果加独显也需要用于开启核显硬件加速)
+      - iGPU Multi-Monitor - Enabled (多显示器开启；如果加独显也需要用于开启核显硬件加速)
       - DVMT Pre-Allocated - 64M 或 128M (4k显示器)
   - Boot
     - Fast Boot - Disabled
