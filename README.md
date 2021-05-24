@@ -4,7 +4,7 @@
 
 | 名称 | 品牌型号 | 备注 |
 | --- | --- | --- |
-| CPU | ql3x 笔记本 i7 7820HK ES 魔改版 | 超频全核 4.0G |
+| CPU | ql3x 笔记本 i7 7820HK ES 魔改版 | 超频全核 4.1G |
 | 主板 | 华硕 B150M A D3 M-ATX 23.4x20.1cm | 已刷魔改 BIOS |
 | 散热器 | ID-COOLING FROSTFLOW 120 水冷 | 咸鱼二手 60 元 |
 | 内存 | 金士顿 HyperX DDR3 1600 8G x 4 | 单通道 4k 显示器可能会闪屏 |
@@ -50,7 +50,7 @@
 
 ### 不兼容
 
-- 睡眠唤醒 - me 关闭问题核显**解决不了**唤醒问题，更换独显立马解决
+- 睡眠唤醒 - me 关闭问题核显**解决不了**，有强需要请独显
 - 显卡
   - 核显 HD630
     - 主板接口
@@ -60,7 +60,6 @@
     - 无法开启 HEVC 硬解
     - 主板接口
       - VGA - 系统不支持，不用想了
-
 
 ## 配置备注
 
@@ -81,9 +80,9 @@ ql3x 其原身是 Intel 笔记本七代 [i7 7820HK](https://ark.intel.com/conten
 
 - Ai Tweaker - 超频（**具体看 CPU 体质**）
   - CPU Core Ratio - Sync All Cores
-    - 1-Core Ratio Limit - 40
+    - 1-Core Ratio Limit - 41
   - CPU Core/Cache Voltage - Manual Mode
-    - CPU Core Voltage Override - 1.28
+    - CPU Core Voltage Override - 1.2
 - Advanced
   - CPU Configuratgion
     - Hyper-threading - Enabled
@@ -129,14 +128,12 @@ sudo pmset tcpkeepalive 0
 
 ## 成果截图
 
-![000-os.png](screenshots/000-os.png)
 ![000-geekbench5-result.png](screenshots/000-geekbench5-result.png)
-![000-intel-power-gadget.png](screenshots/000-intel-power-gadget.png)
-![001-intel-igpu.png](screenshots/001-intel-igpu.png)
-![002-hevc-enabled.png](screenshots/002-hevc-enabled.png)
-![002-monstor.png](screenshots/002-monstor.png)
-![004-lan.png](screenshots/004-lan.png)
-![003-memory.png](screenshots/003-memory.png)
+![001-os.png](screenshots/001-os.png)
+![002-gpu.png](screenshots/002-gpu.png)
+![003-hevc-enabled.png](screenshots/003-hevc-enabled.png)
+![004-monstor.png](screenshots/004-monstor.png)
+![005-intel-power-gadget.png](screenshots/005-intel-power-gadget.png)
 
 ## 感谢
 
