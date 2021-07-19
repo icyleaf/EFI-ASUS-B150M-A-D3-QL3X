@@ -110,11 +110,8 @@ ql3x 其原身是 Intel 笔记本七代 [i7 7820HK](https://ark.intel.com/conten
 ![B150M-A_D3-1.jpg](screenshots/B150M-A_D3-1.jpg)
 ![B150M-A_D3-4.jpg](screenshots/B150M-A_D3-4.jpg)
 
-### EFI
 
-> 待补充
-
-### 睡眠唤醒问题
+### 核显睡眠唤醒问题
 
 由于关闭 me 的问题核显暂时无法解决睡眠唤醒，只能先通过[官方文档](https://dortania.github.io/OpenCore-Post-Install/universal/sleep.html)提供方式禁止睡眠：
 
