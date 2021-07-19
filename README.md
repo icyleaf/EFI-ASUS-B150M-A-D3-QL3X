@@ -8,12 +8,12 @@
 | 主板 | 华硕 B150M A D3 M-ATX 23.4x20.1cm | 已刷魔改 BIOS |
 | 散热器 | ID-COOLING FROSTFLOW 120 水冷 | 咸鱼二手 60 元 |
 | 内存 | 金士顿 HyperX DDR3 1600 8G x 4 | 单通道 4k 显示器可能会闪屏 |
-| 硬盘 | 镁光 CT500MX 500G | |
+| 硬盘 | 致钛 SC001 Active 512GB | MX500 磁盘挂了，返修中 |
 | 显卡 | 蓝宝石 HD 7770 1G | 咸鱼二手 168 元 |
 | 无线网卡/蓝牙 | 博通 BCM94360CS2 | PCIE 转接板 |
 | 电源 | 银欣 ST30SF 300W SFX | |
 | 机箱 | 酷酷的小机箱 毁灭者K | M-ITX 机箱 |
-| 显示器 | NV140QUM-N61 背板 15.6 4k 便携显示器 | Mini-HDMI 接入 |
+| 显示器 | LG 27UL500-W 4k 显示器<br />NV140QUM-N61 背板 15.6 4k 便携显示器 | DP + Mini-HDMI |
 
 ## 兼容情况
 
@@ -48,7 +48,7 @@
 - [x] 所有 USB 插口
 
 
-### 不兼容
+### 不兼容（核显）
 
 - 睡眠唤醒 - me 关闭问题核显**解决不了**，有强需要请独显
 - 显卡
@@ -85,7 +85,7 @@ ql3x 其原身是 Intel 笔记本七代 [i7 7820HK](https://ark.intel.com/conten
     - CPU Core Voltage Override - 1.2
 - Advanced
   - CPU Configuratgion
-    - Hyper-threading - Enabled
+    - Hyper-threading - Enabled (**不需要跑虚拟化的可以不开**）
     - CPU Power Management Cofiguration
       - CFG lock - Disabled
   - System Agent (SA) Configuration
@@ -97,10 +97,10 @@ ql3x 其原身是 Intel 笔记本七代 [i7 7820HK](https://ark.intel.com/conten
   - Boot
     - Fast Boot - Disabled
     - CSM
-      - Launch CSM - Disabled
+      - Launch CSM - Disabled - (经测试可以不用管)
     - Secure Boot
       - OS Type - Other OS
-      - Key Management
+      - Key Management - (经测试可以不用管)
         - 手动删除所有的 keys 就会 Disabled Secure Boot
 
 ### USB 接口
