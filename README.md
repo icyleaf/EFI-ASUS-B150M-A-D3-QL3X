@@ -98,9 +98,9 @@ ql3x 其原身是 Intel 笔记本七代 [i7 7820HK](https://ark.intel.com/conten
   - System Agent (SA) Configuration
     - VT-d - Disabled
     - Graphics Configuration
-      - Primary Display - Auto (如果加独显也需要用于开启核显硬件加速)
-      - iGPU Multi-Monitor - Enabled (多显示器开启；如果加独显也需要用于开启核显硬件加速)
-      - DVMT Pre-Allocated - 64M 或 128M (4k显示器)
+      - Primary Display - Auto (独显用户使用 PCI-E 用于开启核显硬件加速)
+      - iGPU Multi-Monitor - Enabled (多显示器或独显用户开启 PCI-E 用于开启核显硬件加速)
+      - DVMT Pre-Allocated - 128M (4k 显示器)
   - Boot
     - Fast Boot - Disabled
     - CSM
