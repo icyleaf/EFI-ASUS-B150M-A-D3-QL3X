@@ -1,4 +1,6 @@
-# 垃圾佬的 QL3X macOS 11 Big Sur EFI
+# 垃圾佬的 QL3X macOS 12 Monterey EFI
+
+如果你寻找 11 Big Sur 可用的 EFI 请检查 [big_sur](https://github.com/icyleaf/EFI-ASUS-B150M-A-D3-QL3X/tree/big_sur) 分支。
 
 ## 装机清单
 
@@ -21,7 +23,8 @@
 - [x] ME 版本
     - [x] 刷 11.8.65.3590 并关闭 me
 - [x] macOS 版本
-    - [x] 11.0
+    - [x] 12.2
+    - [x] [11.0](https://github.com/icyleaf/EFI-ASUS-B150M-A-D3-QL3X/tree/big_sur)
 - [x] 显卡
     - [x] HD 7770
       - [x] HEVC 硬解
@@ -60,6 +63,10 @@
     - 无法开启 HEVC 硬解
     - 主板接口
       - VGA - 系统不支持，不用想了
+
+## 升级 macOS 系统
+
+争取尽我可能把升级步骤和注意事项记录下来提供给使用我的 EFI 的小伙伴们，请移步到 [upgrade](https://github.com/icyleaf/EFI-ASUS-B150M-A-D3-QL3X/labels/upgrade) 标签查看所有升级说明。
 
 ## 配置备注
 
@@ -124,6 +131,8 @@ sudo pmset tcpkeepalive 0
 ```
 
 ## 成果截图
+
+> 截图暂时懒得更新了。
 
 ![000-geekbench5-result.png](screenshots/000-geekbench5-result.png)
 ![001-os.png](screenshots/001-os.png)
