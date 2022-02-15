@@ -7,5 +7,6 @@ nvram.plist
 vendors/
 
 /EFI/*.txt
+/EFI/APPLE/
 
 ._*

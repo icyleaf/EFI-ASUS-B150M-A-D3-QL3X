@@ -10,7 +10,7 @@
 | 主板 | 华硕 B150M A D3 M-ATX 23.4x20.1cm | 已刷魔改 BIOS |
 | 散热器 | ID-COOLING FROSTFLOW 120 水冷 | 咸鱼二手 60 元 |
 | 内存 | 金士顿 HyperX DDR3 1600 8G x 4 | 单通道 4k 显示器可能会闪屏 |
-| 硬盘 | 致钛 SC001 Active 512GB | MX500 磁盘挂了，返修中 |
+| 硬盘 | 致钛 SC001 Active 512GB | PPD 2021-10 使用至今 |
 | 显卡 | 蓝宝石 HD 7770 1G | 咸鱼二手 168 元 |
 | 无线网卡/蓝牙 | 博通 BCM94360CS2 | PCIE 转接板 |
 | 电源 | 银欣 ST30SF 300W SFX | |
@@ -99,9 +99,9 @@ ql3x 其原身是 Intel 笔记本七代 [i7 7820HK](https://ark.intel.com/conten
   - System Agent (SA) Configuration
     - VT-d - Disabled
     - Graphics Configuration
-      - Primary Display - Auto (如果加独显也需要用于开启核显硬件加速)
-      - iGPU Multi-Monitor - Enabled (多显示器开启；如果加独显也需要用于开启核显硬件加速)
-      - DVMT Pre-Allocated - 64M 或 128M (4k显示器)
+      - Primary Display - Auto (独显用户使用 PCI-E 用于开启核显硬件加速)
+      - iGPU Multi-Monitor - Enabled (多显示器或独显用户开启 PCI-E 用于开启核显硬件加速)
+      - DVMT Pre-Allocated - 128M (4k 显示器)
   - Boot
     - Fast Boot - Disabled
     - CSM
