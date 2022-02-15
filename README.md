@@ -90,6 +90,7 @@ ql3x 其原身是 Intel 笔记本七代 [i7 7820HK](https://ark.intel.com/conten
     - 1-Core Ratio Limit - 41
   - CPU Core/Cache Voltage - Manual Mode
     - CPU Core Voltage Override - 1.2
+  - Memory frequencies - 1700MHz
 - Advanced
   - CPU Configuratgion
     - Hyper-threading - Enabled (**不需要跑虚拟化的可以不开**）
@@ -116,7 +117,6 @@ ql3x 其原身是 Intel 笔记本七代 [i7 7820HK](https://ark.intel.com/conten
 
 ![B150M-A_D3-1.jpg](screenshots/B150M-A_D3-1.jpg)
 ![B150M-A_D3-4.jpg](screenshots/B150M-A_D3-4.jpg)
-
 
 ### 核显睡眠唤醒问题
 
