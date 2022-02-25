@@ -50,7 +50,6 @@
     - [x] Airdrop
 - [x] 所有 USB 插口
 
-
 ### 不兼容（核显）
 
 - 睡眠唤醒 - me 关闭问题核显**解决不了**，有强需要请独显
@@ -87,10 +86,11 @@ ql3x 其原身是 Intel 笔记本七代 [i7 7820HK](https://ark.intel.com/conten
 
 - Ai Tweaker - 超频（**具体看 CPU 体质**）
   - CPU Core Ratio - Sync All Cores
-    - 1-Core Ratio Limit - 41
+    - 1-Core Ratio Limit - 42
   - CPU Core/Cache Voltage - Manual Mode
-    - CPU Core Voltage Override - 1.2
+    - CPU Core Voltage Override - 1.3
   - Memory frequencies - 1700MHz
+    - DMEM Core Voltage Override - 1.48
 - Advanced
   - CPU Configuratgion
     - Hyper-threading - Enabled (**不需要跑虚拟化的可以不开**）
@@ -131,8 +131,6 @@ sudo pmset tcpkeepalive 0
 ```
 
 ## 成果截图
-
-> 截图暂时懒得更新了。
 
 ![000-geekbench5-result.png](screenshots/000-geekbench5-result.png)
 ![001-os.png](screenshots/001-os.png)
