@@ -1,5 +1,7 @@
 # 垃圾佬的 QL3X macOS 12 Monterey EFI
 
+> 本教材的配置完全基于[官方教程](https://dortania.github.io/OpenCore-Install-Guide/config.plist/kaby-lake.html)定制化生成。
+
 如果你寻找 11 Big Sur 可用的 EFI 请检查 [big_sur](https://github.com/icyleaf/EFI-ASUS-B150M-A-D3-QL3X/tree/big_sur) 分支。
 
 ## 装机清单
@@ -20,13 +22,14 @@
 ## 兼容情况
 
 ### 完美
+
 - [x] ME 版本
     - [x] 刷 11.8.65.3590 并关闭 me
 - [x] macOS 版本
     - [x] 12.2
     - [x] [11.0](https://github.com/icyleaf/EFI-ASUS-B150M-A-D3-QL3X/tree/big_sur)
 - [x] 显卡
-    - [x] HD 7770
+    - [x] HD 7770 (独立显卡)
       - [x] HEVC 硬解
       - 主板接口
         - [x] DP - 最高 4k 60帧
@@ -52,13 +55,16 @@
 
 ### 不兼容（核显）
 
+最早因为没买到亮机卡，用了一段时间核显需要[手动设置来禁止睡眠](#%E6%A0%B8%E6%98%BE%E7%9D%A1%E7%9C%A0%E5%94%A4%E9%86%92%E9%97%AE%E9%A2%98)，必要情况需要关机。
+之后从海鲜市场淘了一张最次的亮机卡 HD 7770 才算解决，仓库还保留当时核显的配置，大家如果用核显可以参考着改。
+
 - 睡眠唤醒 - me 关闭问题核显**解决不了**，有强需要请独显
-- 显卡
-  - 核显 HD630
+- 核显
+  - HD630
     - 主板接口
       - DVI - 可进 BIOS 但进入系统黑屏不显示
       - VGA - 系统不支持，不用想了
-  - 仿核显 HD530
+  - HD530
     - 无法开启 HEVC 硬解
     - 主板接口
       - VGA - 系统不支持，不用想了
