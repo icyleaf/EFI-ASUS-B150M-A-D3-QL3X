@@ -139,30 +139,6 @@
                     <data>AAAbWQ==</data>
                     <key>device-id</key>
                     <data>G1kAAA==</data>
-                    <key>framebuffer-con1-busid</key>
-                    <data>BAAAAA==</data>
-                    <key>framebuffer-con1-enable</key>
-                    <data>AQAAAA==</data>
-                    <key>framebuffer-con1-flags</key>
-                    <data>hwEAAA==</data>
-                    <key>framebuffer-con1-index</key>
-                    <data>AgAAAA==</data>
-                    <key>framebuffer-con1-pipe</key>
-                    <data>CgAAAA==</data>
-                    <key>framebuffer-con1-type</key>
-                    <data>AAgAAA==</data>
-                    <key>framebuffer-con2-busid</key>
-                    <data>BgAAAA==</data>
-                    <key>framebuffer-con2-enable</key>
-                    <data>AQAAAA==</data>
-                    <key>framebuffer-con2-flags</key>
-                    <data>hwEAAA==</data>
-                    <key>framebuffer-con2-index</key>
-                    <data>AwAAAA==</data>
-                    <key>framebuffer-con2-pipe</key>
-                    <data>CgAAAA==</data>
-                    <key>framebuffer-con2-type</key>
-                    <data>BAAAAA==</data>
                     <key>framebuffer-fbmem</key>
                     <data>AACQAA==</data>
                     <key>framebuffer-patch-enable</key>
@@ -186,7 +162,7 @@
                     <key>BundlePath</key>
                     <string>Lilu.kext</string>
                     <key>Comment</key>
-                    <string>V1.6.0</string>
+                    <string>V1.6.1</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -204,7 +180,7 @@
                     <key>BundlePath</key>
                     <string>VirtualSMC.kext</string>
                     <key>Comment</key>
-                    <string>V1.2.9</string>
+                    <string>V1.3.0</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -222,7 +198,7 @@
                     <key>BundlePath</key>
                     <string>SMCProcessor.kext</string>
                     <key>Comment</key>
-                    <string>V1.2.9</string>
+                    <string>V1.3.0</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -240,7 +216,7 @@
                     <key>BundlePath</key>
                     <string>SMCSuperIO.kext</string>
                     <key>Comment</key>
-                    <string>V1.2.9</string>
+                    <string>V1.3.0</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -258,7 +234,7 @@
                     <key>BundlePath</key>
                     <string>WhateverGreen.kext</string>
                     <key>Comment</key>
-                    <string>V1.5.9</string>
+                    <string>V1.6.0</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -276,7 +252,7 @@
                     <key>BundlePath</key>
                     <string>AppleALC.kext</string>
                     <key>Comment</key>
-                    <string>V1.7.2</string>
+                    <string>V1.7.3</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -459,8 +435,12 @@
             <array/>
             <key>Security</key>
             <dict>
+                <key>AllowNvramReset</key>
+                <true/>
                 <key>AllowSetDefault</key>
                 <true/>
+                <key>AllowToggleSip</key>
+                <false/>
                 <key>ApECID</key>
                 <integer>0</integer>
                 <key>AuthRestart</key>
