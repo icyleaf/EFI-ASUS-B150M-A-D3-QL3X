@@ -23,7 +23,7 @@
 - [x] ME 版本
     - [x] 刷 11.8.65.3590 并关闭 me
 - [x] macOS 版本
-    - [x] 12.2
+    - [x] 12.4
     - [x] [11.0](https://github.com/icyleaf/EFI-ASUS-B150M-A-D3-QL3X/tree/big_sur)
 - [x] 显卡
     - [x] HD 7770
