@@ -12,6 +12,7 @@
 | 内存 | 金士顿 HyperX DDR3 1600 8G x 4 | 单通道 4k 显示器可能会闪屏 |
 | 硬盘 | 致钛 SC001 Active 512GB | PPD 2021-10 使用至今 |
 | 显卡 | 蓝宝石 HD 7770 1G | 咸鱼二手 168 元 |
+| 有线网卡 | 板载 Realtek RTL8111H | |
 | 无线网卡/蓝牙 | 博通 BCM94360CS2 | PCIE 转接板 |
 | 电源 | 银欣 ST30SF 350W SFX | 超频 4.0 后电源会有概率供电不足 |
 | 机箱 | 酷酷的小机箱 毁灭者K | M-ITX 机箱 |
@@ -43,7 +44,7 @@
 - [x] 声卡 (Realtek ALC887)
     - [x] 主板后置
     - [x] HDMI 声音输出
-- [ ] 有线网卡 (Realtek RTL8111H) - 没有网线测试
+- [x] 有线网卡 (Realtek RTL8111H)
 - [x] 无线 WiFi
 - [x] 蓝牙
     - [x] Handoff
